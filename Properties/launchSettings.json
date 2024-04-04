@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "WebScrapper": {
+      "commandName": "Project",
+      "commandLineArgs": "-a \"checkin\" -e \"prod\"",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "prod"
+      }
+    },
+    "dev": {
+      "commandName": "Project",
+      "commandLineArgs": "-a \"checkin\" -e \"dev\" -i \"d:\\input\" -o \"d:\\output\"",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "dev"
+      }
+    },
+    "test": {
+      "commandName": "Project",
+      "commandLineArgs": "-a \"checkin\" -e \"test\"",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "test"
+      }
+    },
+    "prod": {
+      "commandName": "Project",
+      "commandLineArgs": "-a \"checkin\" -e \"production\"",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "prod"
+      }
+    }
+  }
+}
